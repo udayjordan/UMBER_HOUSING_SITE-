@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    
+    color: rgb(126, 126, 126);
+    font-family: 'Lato',  'Arial ', 'sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.row{
+    max-width: 1140px;
+    margin:0 auto;
+}
+.back{
+    background-image: url(rental1.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+    /* background-attachment: fixed; */
+    
+    /* overflow: hidden; */
+}
+h1{
+    margin:0;
+     list-style: none;
+}
+.umber-text-box{
+    position: absolute;
+    width: 50%;
+    top: 50%;
+    left: 42%
+    
+
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.747);
+    font-size: 500%;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing:  3px;
+
+}
+.btn:link,
+.btn:visited
+{
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration:none;
+    border-radius: 200px;
+}
+
+.btn-full:link,
+.btn-full:visited
+{
+    background-color:#60a3bc ;
+    color: #fff;
+    border: 1px solid #60a3bc;
+}
+.btn-ghost:link,
+.btn-ghost:visited{
+    border: 1px solid #60a3bc;
+    color: #fff;
+    font-weight: 500;
+}
+.btn-full:hover,
+.btn-full:active
+
+{
+    border: 1px solid #60a3bc;
+}
+.btn:hover,
+.btn:active{
+    background-color:#5f554bc4 ;
+}
+
+.btn:link,
+.btn:visited{
+    transition:background-color 0.2s,border 0.25s,color 0.2s;
+}
+.main-nav{
+    float:right;
+    list-style: none;
+    margin-top: 55px;
+    margin-right: 20px;
+}
+.main-nav li{
+    display: inline-block;
+    margin-left: 40px;
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    padding:80,0;
+    color:#60a3bc;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform:uppercase;
+    transition: border-bottom 0.2s;
+}
+.main-nav li a:hover,
+.main-nav li a:active{
+    border-bottom: 5px solid #60a3bc;
+}
+section{
+    padding: 80px 0;
+    overflow: hidden;
+}
+h2,h3,h4{
+    font-weight: 500;
+    text-transform: uppercase;
+
+}
+h2{
+    font-size: 180%;
+    word-spacing: 3px;
+    text-align: center;
+    margin-bottom:30px;
+    letter-spacing: 1px;
+}
+h2::after{
+    display: block;
+    height:2px;
+    background-color:#e67e22;
+    content: "";
+    margin:0 600px;
+    margin-top: 30px;
+}
+.long-copy{
+    text-transform: uppercase;
+    font-weight: 500;
+    line-height: 145%;
+    width:70%;
+    margin-left: 38%;
+}
+.box{
+    padding: 1%;
+}
+.row2{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+h3,h4{
+    font-size: 110%;
+    font-weight: 700;
+    margin-bottom:10px;
+}
+.box p{
+    font-size: 90%;
+    font-weight: 400;
+    line-height: 145%;
+
+}
+.icon-big{
+    font-size:200%;
+    display: block;
+    color: #e67e22;
+    margin-bottom: 10px;
+}
+.box1 img{
+    width:100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+.city-feature{
+    font-weight: 500;
+    margin-bottom:5px;
+}
+.icon-small{
+    display:inline;
+text-align: center;
+color:#e67e22;
+font-size: 120%;
+
+margin-right: 10px;
+line-height: 120%;
+vertical-align: middle;
+margin-top: 4px;
+}
+a:link,
+a:visited{
+    color:#e67e22;
+    text-decoration: none;
+    border-bottom: 1px solid #e67e22 ;
+    padding: 1px;
+}
+a:hover,
+a:active{
+    color: #555;
+    border-bottom: 1px solid transparent;
+
+}
+video{
+    width: 100vw;
+}
+.section-form{
+    background-image: url(annie-spratt-d7q5uqudtzA-unsplash.jpg);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+}
+  .contact-form{
+   
+      width:60%;
+      margin:0 auto;
+  }
+  input[type=text],
+  input[type=email]{
+width: 100%;
+padding: 7px;
+border-radius: 3px;
+border:1px solid #ccc; 
+  }
+  .row6{
+      text-transform: uppercase;
+      font-weight: 600;
+
+  }
+  input[type=submit]
+  
+  {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 400;
+    text-decoration:none;
+    border-radius: 200px;
+    background-color:#ffd4f1 ;
+    
+    border: 1px solid #fcf0fb93;
+
+  }
+  input[type=submit]:hover,
+  input[type=submit]:active{
+    background-color:#c4b9c0 ;
+  }
+  
+  
+  
+
+  
+
+  

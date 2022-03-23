@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    
+    color: rgb(126, 126, 126);
+    font-family: 'Mate SC', serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+.back1{
+    background-image: url(signup2.jpg) ;
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:100vh;
+
+}
+h1{
+    position: relative;
+    left: -242px;
+    top: 153px;
+    margin-top: 0px;
+    font-size: 100px;
+    width: 20%;
+    padding: 10px;
+    list-style: none;}
+    .details{
+        margin-left: 29%;
+    }
+    .name1 {
+        display: block;
+        position: relative;
+        bottom: -118px;
+    left: -170px;
+    letter-spacing: 5px;
+    border-spacing: 1px;
+
+        font-weight: 300;
+        color: #fff;
+    }
+    .side-bar{
+        width: 68px;
+        height: 100vh;
+        background: linear-gradient(#7e848559,#00072900);
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+        
+     .icons2 {
+            display: block;
+            position: absolute;
+            color: #fff;
+            left: 19px;
+            bottom: 50px;
+            font-size: 40px;
+        }
+        .icons3 {
+            display: block;
+            position: absolute;
+            color: #fff;
+            left: 19px;
+            bottom: 114px;
+            font-size: 40px;
+        }
+        .icons4 {
+            display: block;
+            position: absolute;
+            color: #fff;
+            left: 19px;
+            bottom: 173px;
+            font-size: 40px;
+        }
+        .icons1{
+            display: block;
+            position: absolute;
+            color: #fff;
+            left: 19px;
+            bottom: 570px;
+            font-size: 40px;
+        }
+
+
+        
+    
+    
